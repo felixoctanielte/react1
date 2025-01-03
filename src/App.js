@@ -4,10 +4,14 @@ import './App.css';  // Styling
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Felix Octaniel</h1>
-        <p>Web Developer | Passionate About Coding</p>
-      </header>
+     <header className="App-header">
+  <h1>Felix Octaniel</h1>
+  <p>Web Developer | Passionate About Coding</p>
+  <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+    Learn React
+  </a>
+</header>
+
 
       <section id="about" className="section">
         <h2>Tentang Saya</h2>
@@ -41,7 +45,6 @@ function App() {
           </a>
         </div>
       </section>
-
 
       <footer className="App-footer">
         <p>&copy; 2025 Felix Octaniel</p>
